@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research sits at the intersection of graph representation learning and financial applications — specifically how temporal structure in transaction networks can improve fraud and risk detection."
+  },
+  {
+    "objectID": "research.html#conference-publications",
+    "href": "research.html#conference-publications",
+    "title": "Research",
+    "section": "Conference publications",
+    "text": "Conference publications\n\nKernelized Edge Attention: Addressing Semantic Attention Blurring in Temporal GNNs\nGovind Waghmare, Srini Rohan Gujulla Leel, Nikhil Tumbde, Sumedh B G, Sonia Gupta, Srikanta Bedathur\nAAAI 2026 · Philadelphia, PA · February 2026\nTemporal GNNs suffer from semantic attention blurring — relevant edge signals get diluted as graph neighborhoods grow over time. We propose Kernelized Edge Attention (KEA) as a mechanism to preserve edge-level semantics across temporal message passing. [Work presented at AAAI 2026.]\n\n\n\nLearning Representations in Temporal Bipartite Financial Graphs\nPritam Kumar Nath, Govind Waghmare, Nikhil Tumbde, Nitish Kumar, Siddhartha Asthana\nICAIF 2023 · DOI: 10.1145/3604237.3626911 · Patent filed\nRepresentation learning on temporal bipartite graphs (cardholders ↔︎ merchants) for financial fraud and risk tasks. Proposed an enhanced Temporal GNN architecture that outperformed state-of-the-art baselines on 3 out of 4 benchmark datasets for link prediction and node classification."
+  },
+  {
+    "objectID": "research.html#patents",
+    "href": "research.html#patents",
+    "title": "Research",
+    "section": "Patents",
+    "text": "Patents\n\nMethods and systems for determining risk associated with tokenization of payment cards\nPatent filed — Mastercard\nA risk mitigation system to detect and prevent fraudulent token provisioning at scale, enabling millisecond-latency real-time scoring across billions of annual transactions.\n\n\n\nMethods and systems for managing default risk associated with transit transactions\nPatent filed — Mastercard\nA product to manage user default risk on open-loop transit networks, addressing the unique challenge of post-trip payment settlement in high-velocity transit environments."
+  },
+  {
+    "objectID": "research.html#google-scholar",
+    "href": "research.html#google-scholar",
+    "title": "Research",
+    "section": "Google Scholar",
+    "text": "Google Scholar\nFull citation list available on Google Scholar."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Writing on ML systems, fraud modeling, graph learning, and things I find worth thinking through carefully.\nFirst post coming soon.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Personal projects outside of work — focused on building ML fundamentals from scratch and applied NLP/retrieval."
+  },
+  {
+    "objectID": "projects.html#nanograd",
+    "href": "projects.html#nanograd",
+    "title": "Projects",
+    "section": "Nanograd",
+    "text": "Nanograd\nGitHub →\nA lightweight reverse-mode automatic differentiation engine built on NumPy, with full tensor and broadcasting support. Extended Andrej Karpathy’s micrograd (scalar-level) to operate at the tensor level, enabling modular neural network construction and full tensor-level backpropagation.\nBuilt as a ground-up exercise in understanding what frameworks like PyTorch do under the hood — forward passes, computation graphs, and the backward pass across arbitrary tensor operations.\nStack: Python · NumPy · pure autodiff"
+  },
+  {
+    "objectID": "projects.html#kaggle-eedi-mining-misconceptions-in-mathematics",
+    "href": "projects.html#kaggle-eedi-mining-misconceptions-in-mathematics",
+    "title": "Projects",
+    "section": "Kaggle — EEDI Mining Misconceptions in Mathematics",
+    "text": "Kaggle — EEDI Mining Misconceptions in Mathematics\nBronze Medal — Top 7%, Rank 90/1,449 teams\nThe task: given a student’s incorrect answer to a math problem, identify the underlying misconception from a fixed taxonomy. The challenge is that misconception labels are sparse and the retrieval space is large.\nBuilt a two-stage pipeline:\n\nSemantic retrieval — fine-tuned an embedding model to map (question, incorrect answer) pairs into a shared space with misconception descriptions, enabling approximate nearest-neighbor retrieval.\nLLM reranker — a cross-encoder reranker refines the top-k candidates. Fine-tuned using LoRA with quantization for compute efficiency.\n\nSynthetic training data was generated and quality-filtered using an LLM-as-judge framework to supplement the limited labeled set.\nStack: PyTorch · Transformers · LoRA · FAISS · vLLM"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nikhil Tumbde",
+    "section": "",
+    "text": "Senior Data Scientist · AI/ML\nI build ML systems at the intersection of fraud detection, graph neural networks, and agentic AI. Currently at Mastercard’s AI Centre of Excellence, designing multi-agent pipelines for cloud operations. My work spans production fraud scoring, sequential behavioral modeling, and research on temporal graph learning — with two conference publications and three patents filed."
+  },
+  {
+    "objectID": "index.html#focus-areas",
+    "href": "index.html#focus-areas",
+    "title": "Nikhil Tumbde",
+    "section": "Focus areas",
+    "text": "Focus areas\nFraud detection   Graph neural networks   Multi-agent systems   LLM fine-tuning   Sequential modeling\nPyTorch · PySpark · XGBoost · GRU · AWS Bedrock · Databricks"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Nikhil Tumbde",
+    "section": "Experience",
+    "text": "Experience\n\nFeb 2026 – present   Senior Data Scientist — Mastercard, AI Centre of Excellence\nMulti-agent system (POC live) on AWS Bedrock AgentCore to automate cloud ops L1 alert triage across 500–1,000 daily alerts. Designed alert correlation across time, topology, and dependency graphs.\n\nMay 2023 – Feb 2026   Data Scientist II → Senior Data Scientist — Mastercard, AI Garage\nEnd-to-end fraud and risk models (XGBoost, GRU) for token provisioning and card-level behavioral embeddings. Revenue impact of $12M+, 18% TFPR reduction, two patents filed.\n\nOct 2022 – Apr 2023   Data Science Intern — Mastercard, AI Garage\nResearch on temporal GNN architectures for financial graph datasets. Work published at ICAIF’23.\n\nJul 2021 – Oct 2021   Assistant Manager, IT — Niva Bupa Health Insurance\nAutomated sales KPI dashboard in Sisense and MySQL for real-time performance tracking."
+  },
+  {
+    "objectID": "index.html#selected-research",
+    "href": "index.html#selected-research",
+    "title": "Nikhil Tumbde",
+    "section": "Selected research",
+    "text": "Selected research\n\n\n\n\n\n\n\nKernelized Edge Attention: Addressing Semantic Attention Blurring in Temporal GNNs  Waghmare, Leel, Tumbde et al.\nAAAI 2026\n\n\nLearning Representations in Temporal Bipartite Financial Graphs  Nath, Waghmare, Tumbde et al.\nICAIF 2023\n\n\nMethods and systems for determining risk associated with tokenization of payment cards  Patent filed\nPatent\n\n\nMethods and systems for managing default risk associated with transit transactions  Patent filed\nPatent\n\n\n\n→ Full list on the Research page"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Nikhil Tumbde",
+    "section": "Education",
+    "text": "Education\nIIM Calcutta · IIT Kharagpur · ISI Kolkata   Oct 2021 – May 2023\nPost Graduate Diploma in Business Analytics · CGPA 9.44\nVisvesvaraya National Institute of Technology   Jul 2015 – May 2019\nB.Tech. in Chemical Engineering · CGPA 8.02"
+  }
+]
