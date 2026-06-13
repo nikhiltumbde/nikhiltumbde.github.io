@@ -12,7 +12,7 @@ My research sits at the intersection of graph representation learning and financ
 
 *Govind Waghmare, Srini Rohan Gujulla Leel, **Nikhil Tumbde**, Sumedh B G, Sonia Gupta, Srikanta Bedathur*
 
-**AAAI 2026** · Philadelphia, PA · February 2026
+**AAAI 2026** · [DOI](https://doi.org/10.1609/aaai.v40i31.39810 )
 
 Temporal GNNs suffer from semantic attention blurring — relevant edge signals get diluted as graph neighborhoods grow over time. We propose Kernelized Edge Attention (KEA) as a mechanism to preserve edge-level semantics across temporal message passing. [Work presented at AAAI 2026.]
 
@@ -22,7 +22,7 @@ Temporal GNNs suffer from semantic attention blurring — relevant edge signals 
 
 *Pritam Kumar Nath, Govind Waghmare, **Nikhil Tumbde**, Nitish Kumar, Siddhartha Asthana*
 
-**ICAIF 2023** · [DOI: 10.1145/3604237.3626911](https://doi.org/10.1145/3604237.3626911) · Patent filed
+**ICAIF 2023** · [DOI](https://doi.org/10.1145/3604237.3626911) · Patent filed
 
 Representation learning on temporal bipartite graphs (cardholders ↔ merchants) for financial fraud and risk tasks. Proposed an enhanced Temporal GNN architecture that outperformed state-of-the-art baselines on 3 out of 4 benchmark datasets for link prediction and node classification.
 
