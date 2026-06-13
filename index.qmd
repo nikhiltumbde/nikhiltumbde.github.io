@@ -7,7 +7,7 @@ page-layout: full
 
 ::: {.column width="75%"}
 
-# Nikhil Tumbde
+# Home
 
 **Senior Data Scientist · AI/ML**
 

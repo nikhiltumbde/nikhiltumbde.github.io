@@ -10,9 +10,6 @@ website:
   twitter-card: true
 
   navbar:
-    left:
-      - text: "Nikhil Tumbde"
-        href: index.qmd
     right:
       - text: "Research"
         href: research.qmd
