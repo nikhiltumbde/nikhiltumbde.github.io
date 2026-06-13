@@ -1,0 +1,4 @@
+/.quarto/
+/_freeze/
+/docs/
+/.github/workflows/*.log

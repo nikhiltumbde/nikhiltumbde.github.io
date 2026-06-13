@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Nikhil Tumbde"
+  description: "Senior Data Scientist — AI/ML, fraud detection, graph learning."
+  favicon: assets/favicon.ico
+  open-graph: true
+  twitter-card: true
+
+  navbar:
+    left:
+      - text: "Nikhil Tumbde"
+        href: index.qmd
+    right:
+      - text: "Research"
+        href: research.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nikhilt97/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/NikhilT-DS
+        aria-label: GitHub
+
+  page-footer:
+    center: |
+      Built with [Quarto](https://quarto.org) · Hosted on [GitHub Pages](https://pages.github.com)
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: assets/styles.css
+    toc: false
+    page-layout: article

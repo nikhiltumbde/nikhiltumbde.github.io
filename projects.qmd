@@ -1,0 +1,34 @@
+---
+title: "Projects"
+---
+
+Personal projects outside of work — focused on building ML fundamentals from scratch and applied NLP/retrieval.
+
+---
+
+## Nanograd
+
+**[GitHub →](https://github.com/NikhilT-DS/nanograd)**
+
+A lightweight reverse-mode automatic differentiation engine built on NumPy, with full tensor and broadcasting support. Extended Andrej Karpathy's *micrograd* (scalar-level) to operate at the tensor level, enabling modular neural network construction and full tensor-level backpropagation.
+
+Built as a ground-up exercise in understanding what frameworks like PyTorch do under the hood — forward passes, computation graphs, and the backward pass across arbitrary tensor operations.
+
+**Stack:** Python · NumPy · pure autodiff
+
+---
+
+## Kaggle — EEDI Mining Misconceptions in Mathematics
+
+**[Bronze Medal — Top 7%, Rank 90/1,449 teams](https://www.kaggle.com/nikhiltumbde)**
+
+The task: given a student's incorrect answer to a math problem, identify the underlying misconception from a fixed taxonomy. The challenge is that misconception labels are sparse and the retrieval space is large.
+
+Built a two-stage pipeline:
+
+1. **Semantic retrieval** — fine-tuned an embedding model to map (question, incorrect answer) pairs into a shared space with misconception descriptions, enabling approximate nearest-neighbor retrieval.
+2. **LLM reranker** — a cross-encoder reranker refines the top-k candidates. Fine-tuned using LoRA with quantization for compute efficiency.
+
+Synthetic training data was generated and quality-filtered using an LLM-as-judge framework to supplement the limited labeled set.
+
+**Stack:** PyTorch · Transformers · LoRA · FAISS · vLLM

@@ -1,0 +1,97 @@
+---
+title: ""
+page-layout: full
+---
+
+:::: {.columns}
+
+::: {.column width="75%"}
+
+# Nikhil Tumbde
+
+**Senior Data Scientist · AI/ML**
+
+I build ML systems at the intersection of fraud detection, graph neural networks, and agentic AI. Currently at Mastercard's AI Centre of Excellence, designing multi-agent pipelines for cloud operations. My work spans production fraud scoring, sequential behavioral modeling, and research on temporal graph learning — with two conference publications and three patents filed.
+
+<br>
+
+[![](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhilt97/)
+[![](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/NikhilT-DS)
+[![](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=_ehXengAAAAJ)
+[![](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/nikhiltumbde)
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="20%"}
+
+<br><br>
+
+![](assets/profile.jpg){.rounded-circle width="140" fig-alt="Nikhil Tumbde"}
+
+:::
+
+::::
+
+---
+
+## Focus areas
+
+`Fraud detection` &nbsp; `Graph neural networks` &nbsp; `Multi-agent systems` &nbsp; `LLM fine-tuning` &nbsp; `Sequential modeling`
+
+PyTorch · PySpark · XGBoost · GRU · AWS Bedrock · Databricks
+
+---
+
+## Experience
+
+::: {.timeline}
+
+**Feb 2026 – present** &emsp; **Senior Data Scientist** — Mastercard, AI Centre of Excellence
+
+Multi-agent system (POC live) on AWS Bedrock AgentCore to automate cloud ops L1 alert triage across 500–1,000 daily alerts. Designed alert correlation across time, topology, and dependency graphs.
+
+---
+
+**May 2023 – Feb 2026** &emsp; **Data Scientist II → Senior Data Scientist** — Mastercard, AI Garage
+
+End-to-end fraud and risk models (XGBoost, GRU) for token provisioning and card-level behavioral embeddings. Revenue impact of $12M+, 18% TFPR reduction, two patents filed.
+
+---
+
+**Oct 2022 – Apr 2023** &emsp; **Data Science Intern** — Mastercard, AI Garage
+
+Research on temporal GNN architectures for financial graph datasets. Work published at ICAIF'23.
+
+---
+
+**Jul 2021 – Oct 2021** &emsp; **Assistant Manager, IT** — Niva Bupa Health Insurance
+
+Automated sales KPI dashboard in Sisense and MySQL for real-time performance tracking.
+
+:::
+
+---
+
+## Selected research
+
+| | |
+|---|---|
+| **Kernelized Edge Attention: Addressing Semantic Attention Blurring in Temporal GNNs** <br> *Waghmare, Leel, Tumbde et al.* | `AAAI 2026` |
+| **Learning Representations in Temporal Bipartite Financial Graphs** <br> *Nath, Waghmare, Tumbde et al.* | `ICAIF 2023` |
+| **Methods and systems for determining risk associated with tokenization of payment cards** <br> *Patent filed* | `Patent` |
+| **Methods and systems for managing default risk associated with transit transactions** <br> *Patent filed* | `Patent` |
+
+[→ Full list on the Research page](research.qmd)
+
+---
+
+## Education
+
+**IIM Calcutta · IIT Kharagpur · ISI Kolkata** &emsp; *Oct 2021 – May 2023* \
+Post Graduate Diploma in Business Analytics · CGPA 9.44
+
+**Visvesvaraya National Institute of Technology** &emsp; *Jul 2015 – May 2019* \
+B.Tech. in Chemical Engineering · CGPA 8.02

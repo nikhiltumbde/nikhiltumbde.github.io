@@ -1,0 +1,51 @@
+---
+title: "Research"
+---
+
+My research sits at the intersection of graph representation learning and financial applications — specifically how temporal structure in transaction networks can improve fraud and risk detection.
+
+---
+
+## Conference publications
+
+### Kernelized Edge Attention: Addressing Semantic Attention Blurring in Temporal GNNs
+
+*Govind Waghmare, Srini Rohan Gujulla Leel, **Nikhil Tumbde**, Sumedh B G, Sonia Gupta, Srikanta Bedathur*
+
+**AAAI 2026** · Philadelphia, PA · February 2026
+
+Temporal GNNs suffer from semantic attention blurring — relevant edge signals get diluted as graph neighborhoods grow over time. We propose Kernelized Edge Attention (KEA) as a mechanism to preserve edge-level semantics across temporal message passing. [Work presented at AAAI 2026.]
+
+---
+
+### Learning Representations in Temporal Bipartite Financial Graphs
+
+*Pritam Kumar Nath, Govind Waghmare, **Nikhil Tumbde**, Nitish Kumar, Siddhartha Asthana*
+
+**ICAIF 2023** · [DOI: 10.1145/3604237.3626911](https://doi.org/10.1145/3604237.3626911) · Patent filed
+
+Representation learning on temporal bipartite graphs (cardholders ↔ merchants) for financial fraud and risk tasks. Proposed an enhanced Temporal GNN architecture that outperformed state-of-the-art baselines on 3 out of 4 benchmark datasets for link prediction and node classification.
+
+---
+
+## Patents
+
+### Methods and systems for determining risk associated with tokenization of payment cards
+
+*Patent filed — Mastercard*
+
+A risk mitigation system to detect and prevent fraudulent token provisioning at scale, enabling millisecond-latency real-time scoring across billions of annual transactions.
+
+---
+
+### Methods and systems for managing default risk associated with transit transactions
+
+*Patent filed — Mastercard*
+
+A product to manage user default risk on open-loop transit networks, addressing the unique challenge of post-trip payment settlement in high-velocity transit environments.
+
+---
+
+## Google Scholar
+
+Full citation list available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=_ehXengAAAAJ).
