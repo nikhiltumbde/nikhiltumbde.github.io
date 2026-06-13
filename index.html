@@ -80,12 +80,12 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="assets/styles.css">
 <meta property="og:title" content="– Nikhil Tumbde">
 <meta property="og:description" content="Senior Data Scientist — AI/ML, fraud detection, graph learning.">
-<meta property="og:image" content="assets/profile.jpg">
+<meta property="og:image" content="https://nikhiltumbde.github.io/assets/profile.jpg">
 <meta property="og:site_name" content="Nikhil Tumbde">
 <meta property="og:image:alt" content="Nikhil Tumbde">
 <meta name="twitter:title" content="– Nikhil Tumbde">
 <meta name="twitter:description" content="Senior Data Scientist — AI/ML, fraud detection, graph learning.">
-<meta name="twitter:image" content="assets/profile.jpg">
+<meta name="twitter:image" content="https://nikhiltumbde.github.io/assets/profile.jpg">
 <meta name="twitter:image:alt" content="Nikhil Tumbde">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -477,7 +477,7 @@ B.Tech. in Chemical Engineering · CGPA 8.02</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/nikhiltumbde\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
