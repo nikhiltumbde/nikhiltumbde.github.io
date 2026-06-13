@@ -58,35 +58,35 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Nikhil Tumbde",
+    "title": "Home",
     "section": "",
     "text": "Senior Data Scientist · AI/ML\nI build ML systems at the intersection of fraud detection, graph neural networks, and agentic AI. Currently at Mastercard’s AI Centre of Excellence, designing multi-agent pipelines for cloud operations. My work spans production fraud scoring, sequential behavioral modeling, and research on temporal graph learning — with two conference publications and three patents filed."
   },
   {
     "objectID": "index.html#focus-areas",
     "href": "index.html#focus-areas",
-    "title": "Nikhil Tumbde",
+    "title": "Home",
     "section": "Focus areas",
     "text": "Focus areas\nFraud detection   Graph neural networks   Multi-agent systems   LLM fine-tuning   Sequential modeling\nPyTorch · PySpark · XGBoost · GRU · AWS Bedrock · Databricks"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Nikhil Tumbde",
+    "title": "Home",
     "section": "Experience",
     "text": "Experience\n\nFeb 2026 – present   Senior Data Scientist — Mastercard, AI Centre of Excellence\nMulti-agent system (POC live) on AWS Bedrock AgentCore to automate cloud ops L1 alert triage across 500–1,000 daily alerts. Designed alert correlation across time, topology, and dependency graphs.\n\nMay 2023 – Feb 2026   Data Scientist II → Senior Data Scientist — Mastercard, AI Garage\nEnd-to-end fraud and risk models (XGBoost, GRU) for token provisioning and card-level behavioral embeddings. Revenue impact of $12M+, 18% TFPR reduction, two patents filed.\n\nOct 2022 – Apr 2023   Data Science Intern — Mastercard, AI Garage\nResearch on temporal GNN architectures for financial graph datasets. Work published at ICAIF’23.\n\nJul 2021 – Oct 2021   Assistant Manager, IT — Niva Bupa Health Insurance\nAutomated sales KPI dashboard in Sisense and MySQL for real-time performance tracking."
   },
   {
     "objectID": "index.html#selected-research",
     "href": "index.html#selected-research",
-    "title": "Nikhil Tumbde",
+    "title": "Home",
     "section": "Selected research",
     "text": "Selected research\n\n\n\n\n\n\n\nKernelized Edge Attention: Addressing Semantic Attention Blurring in Temporal GNNs  Waghmare, Leel, Tumbde et al.\nAAAI 2026\n\n\nLearning Representations in Temporal Bipartite Financial Graphs  Nath, Waghmare, Tumbde et al.\nICAIF 2023\n\n\nMethods and systems for determining risk associated with tokenization of payment cards  Patent filed\nPatent\n\n\nMethods and systems for managing default risk associated with transit transactions  Patent filed\nPatent\n\n\n\n→ Full list on the Research page"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Nikhil Tumbde",
+    "title": "Home",
     "section": "Education",
     "text": "Education\nIIM Calcutta · IIT Kharagpur · ISI Kolkata   Oct 2021 – May 2023\nPost Graduate Diploma in Business Analytics · CGPA 9.44\nVisvesvaraya National Institute of Technology   Jul 2015 – May 2019\nB.Tech. in Chemical Engineering · CGPA 8.02"
   }
