@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Nikhil Tumbde"
+  site-url: "https://nikhiltumbde.github.io"
   description: "Senior Data Scientist — AI/ML, fraud detection, graph learning."
   favicon: assets/favicon.ico
   open-graph: true
