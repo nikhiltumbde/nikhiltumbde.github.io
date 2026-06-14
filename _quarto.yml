@@ -24,6 +24,12 @@ website:
       - icon: github
         href: https://github.com/nikhiltumbde
         aria-label: GitHub
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?hl=en&user=_ehXengAAAAJ
+        aria-label: Google Scholar
+      - icon: trophy-fill
+        href: https://www.kaggle.com/nikhiltumbde
+        aria-label: Kaggle
 
   page-footer:
     center: |
