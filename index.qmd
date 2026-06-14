@@ -5,26 +5,22 @@ page-layout: full
 
 :::: {.columns}
 
-::: {.column width="75%"}
+::: {.column width="22%"}
+![](assets/profile.jpg){.rounded-circle width="150" fig-alt="Nikhil Tumbde"}
 
-# Home
-
-**Senior Data Scientist · AI/ML**
-
-I build ML systems at the intersection of fraud detection, graph neural networks, and agentic AI. Currently at Mastercard's AI Centre of Excellence, designing multi-agent pipelines for cloud operations. My work spans production fraud scoring, sequential behavioral modeling, and research on temporal graph learning — with two conference publications and three patents filed.
-
-<br>
-
+<p style="text-align:center; font-size:0.85rem; color:#6b7280; margin-top:8px;">Senior Data Scientist<br>Mastercard</p>
 :::
 
 ::: {.column width="5%"}
 :::
 
-::: {.column width="20%"}
+::: {.column width="73%"}
 
-<br><br>
+# Nikhil Tumbde
 
-![](assets/profile.JPG){.rounded-circle width="140" fig-alt="Nikhil Tumbde"}
+**Senior Data Scientist · AI/ML**
+
+I build ML systems at the intersection of fraud detection, graph neural networks, and agentic AI. Currently at Mastercard's AI Centre of Excellence, designing multi-agent pipelines for cloud operations. My work spans production fraud scoring, sequential behavioral modeling, and research on temporal graph learning — with two conference publications and three patents filed.
 
 :::
 
