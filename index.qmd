@@ -24,7 +24,7 @@ I build ML systems at the intersection of fraud detection, graph neural networks
 
 <br><br>
 
-![](assets/profile.jpg){.rounded-circle width="140" fig-alt="Nikhil Tumbde"}
+![](assets/profile.JPG){.rounded-circle width="140" fig-alt="Nikhil Tumbde"}
 
 :::
 
